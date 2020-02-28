@@ -29,7 +29,7 @@ Often These donations require a card/cash transaction or to stop and buy a physi
 
 These small barriers in the hustle and bustle of a busy city would potentially decrease the amount of support that we as a modern society can offer to those in need.
 
-If we look at the big picture there are roughly 2.2 million people in Brisbane. If only half of those people donated 1 dollar per week we would be looking at approximately 2.5 million dollars per month that would go towards helping provide a better life for people in need.
+If we look at the big picture there are roughly 2.2 million people in Brisbane. If only half of those people donated 1 dollar per week we would be looking at approximately 2.5 million dollars per month that would go towards helping provide a better life for people in need.....and thats just in Brisbane.
 
 Let's make this process as easy as possible.
 
