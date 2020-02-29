@@ -27,6 +27,7 @@ Yuu are welcome and encouraged to provide feedback and ideas to improve myCitySu
 Pull requests are the best way to propose changes to the codebase (we use Github Flow). I actively welcome your pull requests:
 
 - Fork the repo and create your branch from master.
+- Pull before pushing to ensure the latest updates are in your pull request.
 - If you've added code that should be tested, add tests.
 - If you've changed APIs, update the documentation.
 - Ensure the test suite passes.
