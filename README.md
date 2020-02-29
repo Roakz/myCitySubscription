@@ -51,10 +51,24 @@ The platform will have:
 
 ---
 
+## Tech stack 
+
+myCitySubscription will have a Ruby backend and a javascript frontend.
+
+ The backend API will be built out as a Sinatra application. This choice is due to the quick build times and ease of the hight level Ruby language coupled with the non oppinionated framework that sinatra provides. This will help avoid the unneccesary weight of a full Rails API aswell as the heavy oppinionation that it entails. Thi allows us to strcture the API as we choose and use middlewares of choice aswell as implement other application functionailty as we choose. There will be three front ends that interact with the sinatra API. 
+
+The main administration interface and the Pulic facing responsive website will be built on React, a component based Javascript library. React provides a robust library of resources for building an interactive UI with the ability to only import what is needed for the job. React is extremley popular in the development community due to its ease of use and the ability to re-use components for a dry and lightweight codebase. Its ability to use State within components and the newley introduced event hooks to control the component lifecycle ensure a quik and easy to develop iteractive web app. Furthemore the way that React segregates its enpoints in a fashion that maintains a "Static" app makes it extremley easy to deploy and extremley quik to use and load. 
+
+The mobile app segment of the application will be built with React native. React native is a unique native application famework that essentially allows developers to create native aplications written in javascript. React Native lets you create truly native apps and doesn't compromise on your users' experience. It provides a core set of platform agnostic native components like View, Text, and Image that map directly to the platform’s native UI building blocks.
+
+Essentially there will be three font ends to this application that all interact in one way or another with the Sinatra API to perform CRUD actions and make relevant requests for data.
+
+The application will maintain overall an MVC architectural pattern.
+
 ## More documentation coming soon!
 
 ## feedback and thoughts : 
 
-Twittrer @RoarzOnRails
+Twitter @RoarzOnRails
 
 Linkedin https://www.linkedin.com/in/roarzonrails/
