@@ -2,7 +2,7 @@
 
 ---
 
-![My city subscription logo](./assets/myCitySubscription.png)
+![my city subscription logo](/assets/myCitySubscription.png)
 
 ---
 
