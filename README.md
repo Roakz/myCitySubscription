@@ -1,10 +1,6 @@
 # myCitySubscription
 
----
-
-![my city subscription logo](/assets/myCitySubscription.png)
-
----
+![Logo](./assets/mycity.png)
 
 A subscription based donation software for non for profits and the likes.
 
