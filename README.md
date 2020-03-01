@@ -2,7 +2,7 @@
 
 ---
 
-![My city subscription logo.]('./assets/myCitySubscription(2).png')
+![My city subscription logo](./assets/myCitySubscription.png)
 
 ---
 
