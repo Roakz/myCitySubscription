@@ -1,5 +1,14 @@
 # myCitySubscription
+
+---
+
+![My city subscription logo.]('./assets/myCitySubscription(2).png')
+
+---
+
 A subscription based donation software for non for profits and the likes.
+
+---
 
 ## Contents
 1. The Problem
@@ -66,6 +75,7 @@ Essentially there will be three font ends to this application that all interact 
 The application will maintain overall an MVC architectural pattern.
 
 ## More documentation coming soon!
+
 
 ## feedback and thoughts : 
 
