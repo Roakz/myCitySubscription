@@ -2,7 +2,7 @@
 
 ![myCitySubscription Logo](./assets/mycity.png)
 
-A subscription based donation software for non for profits
+A subscription based donation software for not-for-profits and the likes
 
 ---
 
@@ -25,7 +25,7 @@ Modern society has become one hell of a beast to keep up with. The financial dem
 
 When walking the streets of Brisbane City - where I live - I often see people sleeping rough. It's not an uncommon sight to see. We also have some pretty amazing not-for-profit  organizations doing what they can to provide support to people who don't share the luxury of roofs over their heads, or a warm bed to sleep in at night.
 
-For example, Orange Sky, an organization that provides a laundry services for people doing it rough; and Beddown provide temporary sleeping arrangements to give people a rest from a tougher environment.
+For example, Orange Sky is an organization that provides a laundry services for people doing it rough; and Beddown who provide temporary sleeping arrangements to give people a rest from a tougher environment.
 
 We also have the Big Issue which is a fantastic service giving people who are sleeping rough an opportunity to distribute a magazine in return for some profit.
 
@@ -80,6 +80,8 @@ Essentially there will be three font ends to this application that all interact 
 The application will maintain overall an MVC architectural pattern.
 
 ### Data
+
+To be expanded soon.
 
 ## More documentation coming soon!
 
