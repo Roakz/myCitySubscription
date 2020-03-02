@@ -1,6 +1,6 @@
 # Contributing to myCitySubscription
 
-Would love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
+Would love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:-
 
 - Reporting a bug
 - Discussing the current state of the code
@@ -12,13 +12,13 @@ Would love your input! We want to make contributing to this project as easy and 
 
 ---
 
-## This will be a planned project
+## This Will Be A Planned Project
 
-Please provide your thoughts and feedback and contribute as you feel fit. However this project does have a overall goal! SO please dont be offended if a pull request gets rejected or you are asked for further information, code formatting or fixes, or just plain told its not viable for the product.
+Please provide your thoughts and feedback and contribute as you feel fit. However this project does have a overall goal, so please don't be offended if a pull request gets rejected or you are asked for further information, code formatting or fixes, or just plain told its not viable for the product.
 
-There will be wireframes/Mockup for basic layout ideas etc so please be respectful of the overall goals of the planners. 
+There will be wireframes and mockups for basic layout ideas etc, so please be respectful of the overall goals of the planners.
 
-Yuu are welcome and encouraged to provide feedback and ideas to improve myCitySubscription and provide us with an opportunity to pull your imprivments !!! just dont be hatin :P
+You are welcome and encouraged to provide feedback and ideas to improve myCitySubscription, so go ahead and make a pull request with your improvements! Just don't be hatin' :P
 
 ---
 
@@ -33,13 +33,13 @@ Pull requests are the best way to propose changes to the codebase (we use Github
 - Ensure the test suite passes.
 - Issue that pull request!
 - Any contributions you make will be under the MIT Software License
-- In short, when you submit code changes, your submissions are understood to be under the same MIT License that covers the project. Feel free to contact the maintainers if that's a concern.
+    - In short, when you submit code changes, your submissions are understood to be under the same MIT License that covers the project. Feel free to contact the maintainers if that's a concern.
 
 ---
 
-## Report bugs using Github's issues
+## Report Bugs Using Github's Issues
 
-We use GitHub issues to track public bugs. Report a bug by opening a new issue; it's that easy!
+We use GitHub issues to track public bugs. Report a bug by opening a new issue; It's that easy!
 
 Write bug reports with detail, background, and sample code
 This is an example of a bug report I wrote, and I think it's not a bad model. Here's another example from Craig Hockenberry, an app developer whom I greatly respect.
@@ -53,13 +53,14 @@ Great Bug Reports tend to have:
 - What you expected would happen
 - What actually happens
 - Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
+
 People love thorough bug reports. I'm not even kidding.
 
 ---
 
 ## Use a Consistent Coding Style
 
-Lets try and maintain a consistent style throughout so as not to end up with an extremley mesy monolith that no one ants to deal with :D !
+Lets try and maintain a consistent style throughout so as not to end up with an extremely messy monolith that no one wants to deal with! 😄
 
 
 ## By contributing, you agree that your contributions will be licensed under its MIT License.
