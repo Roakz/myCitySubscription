@@ -13,6 +13,7 @@ A subscription based donation software for non for profits and the likes.
   - Features
     - Public Interface
     - Administrative Interface
+      - Sitemap
     - Content Portal
 3. Tech Stack
   - Architecture
