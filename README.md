@@ -60,7 +60,7 @@ The platform will have:
 ### Public Interface
 ### Administrative Interface
 
-### Site Map
+### MVP Site Map
 
 ![administration interface site-map](./assets/admin-sitemap-mvp.png)
 
