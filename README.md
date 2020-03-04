@@ -1,6 +1,6 @@
 # myCitySubscription
 
-![myCitySubscription Logo](./assets/mycity.png)
+<img src="./assets/mycity.png" width=50%>
 
 A subscription based donation software for not-for-profits and the likes
 
@@ -61,18 +61,18 @@ The platform will have:
 
 ### MVP Public Website Sitemap
 
-![administration interface site-map](./assets/public-mvp-sitemap.png)
-
+<img src="./assets/public-mvp-sitemap.png" width=50%>
 
 ### MVP Mobile app map
 
-![public website site-map](./assets/mobile-mvp-sitemap.png)
+<img src="./assets/mobile-mvp-sitemap.png" width=50%>
 
 ### Administrative Interface
 
 ### MVP Site Map
 
-![administration interface site-map](./assets/admin-sitemap-mvp.png)
+<!-- ![administration interface site-map](./assets/admin-sitemap-mvp.png) -->
+<img src="./assets/admin-sitemap-mvp.png" width=50%>
 
 ### Content Portal
 ---
