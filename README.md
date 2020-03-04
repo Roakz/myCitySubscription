@@ -58,6 +58,16 @@ The platform will have:
 
 
 ### Public Interface
+
+### MVP Public Website Sitemap
+
+![administration interface site-map](./assets/public-mvp-sitemap.png)
+
+
+### MVP Mobile app map
+
+![public website site-map](./assets/mobile-mvp-sitemap.png)
+
 ### Administrative Interface
 
 ### MVP Site Map
