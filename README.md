@@ -12,7 +12,7 @@ A subscription based donation software for not-for-profits and the likes
 3. [The Application](##The-Application)
     * [Public Interface](###Public-Interface)
     * [Administrative Interface](###Administrative-Interface)
-      - [Site Map](###Sitemap)
+      - [Site Map](###MVP-Site-Map)
     * [Content Portal](###Content-Portal)
 4. [Tech Stack](##Tech-Stack)
     - [Architecture](###Architecture)
