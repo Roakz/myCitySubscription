@@ -16,7 +16,7 @@ Would love your input! We want to make contributing to this project as easy and 
 
 Please provide your thoughts and feedback and contribute as you feel fit. However this project does have a overall goal, so please don't be offended if a pull request gets rejected or you are asked for further information, code formatting or fixes, or just plain told its not viable for the product.
 
-There will be wireframes and mockups for basic layout ideas etc, so please be respectful of the overall goals of the planners.
+There will be wire-frames and mockups for basic layout ideas etc, so please be respectful of the overall goals of the planners.
 
 You are welcome and encouraged to provide feedback and ideas to improve myCitySubscription, so go ahead and make a pull request with your improvements! Just don't be hatin' :P
 
