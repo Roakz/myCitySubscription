@@ -52,9 +52,9 @@ The administration of this software will be as automated as possible to decrease
 
 The platform will have:
 
-- Organization / administrative platform
-- Public-facing website and mobile app
-- Digital asset platform
+- Organization / administrative platform with digital asset management
+- Public-facing website
+- Mobile app
 
 
 ### Public Interface
