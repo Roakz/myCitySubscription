@@ -1,6 +1,8 @@
 require 'sinatra'
+require 'json'
 require 'sinatra/reloader' if development?
 
-get '/' do
-    'Put this in your pipe & smoke it'
+get '/hello_world' do
+    JSON.generate({message: 'Hello world!'})
 end
+
