@@ -52,9 +52,9 @@ The administration of this software will be as automated as possible to decrease
 
 The platform will have:
 
-- Organization / administrative platform with digital asset management
+- Organization / administrative platform with digital asset and volunteer management
 - Public-facing website
-- Mobile app
+- Mobile app with a volunteer management segment
 
 
 ### Public Interface
@@ -93,11 +93,11 @@ Essentially there will be three font ends to this application that all interact 
 
 ### Architecture
 
-The application will maintain overall an MVC architectural pattern.
+
 
 ### Data
 
-To be expanded soon.
+The application will use a gem called DataMapper to provide object-relational mapping to a MySql relational database. Mysql is an widely known, used, and highly scalable relational database which will help provide normalization of data out of the box. Data mapper as the name suggests enables us to interact with the database from our object orientated codebase with ease. It provides easy to use query syntax and easy data modelling options, and validation, as well as a 1 line connection to our database.
 
 ## More documentation coming soon!
 
