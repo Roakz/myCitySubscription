@@ -1,20 +1,20 @@
-require 'data_mapper'
-require 'dotenv'
+# require 'data_mapper'
+# require 'dotenv'
 
-Dotenv.load
+# Dotenv.load
 
-DataMapper::Database.setup({
-  :adapter  => 'mysql',
-  :host     => 'localhost',
-  :username => ENV['DB_USERNAME'],
-  :password => ENV['DB_PASSWORD'],
-  :database => 'sinatra_hello_world'
-})
+# DataMapper::Database.setup({
+#   :adapter  => 'mysql',
+#   :host     => 'localhost',
+#   :username => ENV['DB_USERNAME'],
+#   :password => ENV['DB_PASSWORD'],
+#   :database => 'sinatra_hello_world'
+# })
 
-class HelloWorld
+# class HelloWorld
 
-  include DataMapper::Persistence
+#   include DataMapper::Persistence
 
-  property :name, :string
+#   property :name, :string
  
-end
+# end

@@ -79,6 +79,8 @@ The platform will have:
 
 ## Tech stack
 
+UPDATES COMING!!!
+
 myCitySubscription will have a Ruby backend and a JavaScript frontend.
 
 The backend API will be built out as a Sinatra application. This choice is due to the quick build times and ease of the high level Ruby language, coupled with the non-opinionated framework that sinatra provides. It will help avoid the unnecessary weight of a full opinionated Rails API. Thi allows us to structure the API and use middlewares as we choose to, as well as implement other application functionality as we choose.
@@ -93,11 +95,11 @@ Essentially there will be three font ends to this application that all interact 
 
 ### Architecture
 
-
+coming soon...
 
 ### Data
 
-The application will use a gem called DataMapper to provide object-relational mapping to a MySql relational database. Mysql is an widely known, used, and highly scalable relational database which will help provide normalization of data out of the box. Data mapper as the name suggests enables us to interact with the database from our object orientated codebase with ease. It provides easy to use query syntax and easy data modelling options, and validation, as well as a 1 line connection to our database.
+coming soon...
 
 ## More documentation coming soon!
 
