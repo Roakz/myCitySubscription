@@ -1,7 +1,5 @@
 # myCitySubscription
 
-<img src="./assets/mycity.png" width=50%>
-
 A subscription based donation software for not-for-profits and the likes
 
 ---
