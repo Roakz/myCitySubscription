@@ -1,0 +1,19 @@
+<div class="jumbotron bg-info border border-dark">
+  <h1 class="display-4 text-white">MyCitySubscription</h1>
+  <p class="lead text-black">An open source, subscripiton based, digital donation software. In case you were wondering, that means its free!</p>
+  <hr class="my-4">
+  <p>Manage your volunteers & helpers, keep track of financial streams and visualize data in real time, utilise the easy to use digital donation/subscription platform and manage your digital assets from one place. </p>
+  <p class="lead">
+    <a class="btn btn-dark btn-lg" href="#" role="button">Create an Account</a>
+  </p>
+</div>
+
+<div class="d-flex flex-wrap justify-content-around">
+<% @cards.each do |card| %>
+    <%= render partial: "card", locals: {
+      title: card[:title],
+      description: card[:description],
+      image: "https://via.placeholder.com/286x180" }
+    %>
+<%end%>
+</div>
