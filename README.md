@@ -98,24 +98,22 @@ Lets all contribute to a wholesome cause that could make a difference to any ind
 
 For best results setting up a local environment i highly reccommend sticking with the versions in the gemfile.
 
-Install ruby 2.5.5 (I use rvm to manage my ruby versions for different projects)
+Pre requisites are a postgresql db installation and ruby 2.5.5.
 
-```
-rvm install 2.5.5
-```
-Make sure your using the correct Ruby verison and Run a bundle install
+As with any rails project run a bundle install to install the required dependancies.
 
 ```
 bundle install
 ```
-There will be databases hooked up eventually but for now the contained sqlite is running until i get to it
-
-The project is using webpacker for asset compilation which is a nice addition to Rails 6. You will more than likely need to do an install from yarn or npm in your project directory
-
+Once all dependancies are successfully installed you will need to create a .env file in the directory root and configure your database credentials. See the /config/database.yml for the required variables. YOu will need a database name for development and testing and a password and host.
 ```
-npm install
+touch .env
 ```
-Then setup webpacker
+Time to set up the database! Rails 6 has a fun new syntax to remove the old create,migrate,seed commands.
+```
+rails db:prepare
+```
+The project is using webpacker for asset compilation which is a nice addition to Rails 6. To get it running enter the following command.
 ```
 rails webpacker:install
 ```
@@ -127,6 +125,8 @@ In another terminal window
 ```
 ./bin/webpacker-dev-server
 ```
+
+Visit localhost:3000
 
 ## feedback and thoughts :
 
