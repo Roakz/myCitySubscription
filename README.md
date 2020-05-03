@@ -10,14 +10,14 @@ Links to other repositories:
 ---
 
 ## Contents
-1. [The Problem](##the-Problem)
-2. [The Solution](##the-Solution)
-3. [The Application](##the-application)
-    * [Public Interface](###public-interface)
-    * [Administrative Interface](###admin-portal)
-    * [Content Portal](###content-portal-(digital-assets))
-4. [Tech Stack](##tech-stack)
-5. [Contribute](##contribute)
+1. [The Problem](#the-Problem)
+2. [The Solution](#the-Solution)
+3. [The Application](#the-application)
+    * [Public Interface](#public-interface)
+    * [Administrative Interface](#admin-portal)
+    * [Content Portal](#digital-asset)
+4. [Tech Stack](#tech-stack)
+5. [Contribute](#contribute)
   
 ---
 
@@ -67,7 +67,7 @@ The public facing website will be a Ruby on Rails application. This will contain
 
 The administrative portal will be a volunteer and organization management tool. It will provide the ability to manage volunteers, capture data and visualize it, provide financial status information and contain access to the digital asset managment tool. 
 
-### Content Portal (Digital assets)
+### Digital Asset
 
 The digital asset portal will be accessable from the rails administrative platform and will essentially be a Drupal8 CMS site, which will enable non technical users to easily customize a digital asset, that will ideally be used to provide in return for a subscription/donation. There will be a segment of the site that allows for the organization to add their own content to advertise who they are and what they are about.
 
