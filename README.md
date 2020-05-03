@@ -18,6 +18,7 @@ Links to other repositories:
     * [Content Portal](#digital-asset)
 4. [Tech Stack](#tech-stack)
 5. [Contribute](#contribute)
+6. [Local Environment](#local-environment)
   
 ---
 
@@ -90,6 +91,40 @@ Deployment will be on the cloud at AWS.
 Anyone who wants to contribute to this open source project is welcome. There is a basic contribute.md above in the files. But essentially there will be features and issues that need attention. Otherwise feel free to make recommendations or pull requests as you see fit and ill be more than happy to take a look.
 
 Lets all contribute to a wholesome cause that could make a difference to any industry that needs support.
+
+## Local environment
+
+For best results setting up a local environment i highly reccommend sticking with the versions in the gemfile.
+
+Install ruby 2.5.5 (I use rvm to manage my ruby versions for different projects)
+
+```
+rvm install 2.5.5
+```
+Run a bundle install
+
+```
+bundle install
+```
+There will be databases hooked up eventually but for now the contained sqlite is running until i get to it
+
+The project is using webpacker for asset compilation which is a nice addition to Rails 6. You will more than likely need to do an install from yarn or npm in your project directory
+
+```
+npm install
+```
+Then setup webpacker
+```
+rails webpacker:install
+```
+If all went well you should be able to run the rails server followed by the webpacker dev server
+```
+rails s
+```
+In another terminal window
+```
+./bin/webpacker-dev-server
+```
 
 ## feedback and thoughts :
 
