@@ -46,9 +46,9 @@ myCitySubscription will be an open-source software platform that provides a digi
 
 Essentially it will allow people to sign up to a subscription at either a named price or a flexible price (decided by the providing organization). This would entitle the subscriber to receive a digital asset that the organization provides, on an ongoing basis of the purchaser's choice or potentially a one of purchase if they choose. The people on the street would simply have a unique code that they either distribute via some sort of cards or hold up on a sign which is unique to them. This ensures the profits go to this individual to help them carve a better life, whatever that means to them.
 
-After further disucssion and thought and some suggestions from others it was also decided to add a QR scanner functionality to the app. This helps prevent complete seperation of social, person to person, interaciton to help keep the experience more personal and real. Essentially to help prevent compelte isolation of the people in need. Still providing and improved financial stream capability.
+After further disucssion and thought and some suggestions from others it was also decided to add a QR scanner functionality to the app. This helps prevent complete seperation of social, person to person, interaciton to help keep the experience more personal and real. Essentially to help prevent complete isolation of the people in need. Still providing and improved financial stream capability.
 
-A subscriber/purchaser will log in to the site/app, enter the code and some basic details and the subscription will be active.
+A subscriber/purchaser will log in to the site/app, enter the code or scan the QR code, add some basic details and the subscription will be active.
 
 The administration of this software will be as automated as possible to decrease the need for labor costs to a not-for-profit.
 
