@@ -4,19 +4,21 @@ A subscription based donation software for not-for-profits and the likes
 
 ---
 
+Links to other repositories:
+- https://github.com/Roakz/myCitySubscription-react-native
+
+---
+
 ## Contents
 1. [The Problem](##The-Problem)
 2. [The Solution](##The-Solution)
 3. [The Application](##The-Application)
     * [Public Interface](###Public-Interface)
-    * [Administrative Interface](###Administrative-Interface)
-      - [Site Map](###MVP-Site-Map)
-    * [Content Portal](###Content-Portal)
+    * [Administrative Interface](###Admin-Portal)
+    * [Content Portal](###Content-Portal-(Digital-assets))
 4. [Tech Stack](##Tech-Stack)
-    - [Architecture](###Architecture)
-    - [Data](###Data)
-
-  ---
+  
+---
 
 ## The Problem
 
@@ -50,42 +52,37 @@ The administration of this software will be as automated as possible to decrease
 
 The platform will have:
 
-- Organization / administrative platform with digital asset and volunteer management
+- Organization / administrative platform with volunteer management
+- Digital asset portal
 - Public-facing website
 - Mobile app with a volunteer management segment
 
 
 ### Public Interface
 
-### Content Portal
+The public facing website will be a Ruby on Rails application. This will contain the main information for organisations looking to sign up and access to the administrative platform will be available from here. Organizations will sign up to use the product as a free subscription.
+
+### Admin Portal
+
+The administrative portal will be a volunteer and organization management tool. It will provide the ability to manage volunteers, capture data and visualize it, provide financial status information and contain access to the digital asset managment tool. 
+
+### Content Portal (Digital assets)
+
+The digital asset portal will be accessable from the rails administrative platform and will essentially be a Drupal8 CMS site, which will enable non technical users to easily customize a digital asset, that will ideally be used to provide in return for a subscription/donation. There will be a segment of the site that allows for the organization to add their own content to advertise who they are and what they are about.
+
+### Mobile App
+
+The mobile application will provide the heart of the myCitySubscription idea. It will enable users to quickly and with ease sign up to a subscription or purely donate with a code or by scanning a QR code with there phones. The application will be a React native application for ease of deployment to multiple platforms i.e IOS and Android.
+
 ---
 
 ## Tech stack
 
-UPDATES COMING!!!
+The Technologies used for the application will include the Above discussed including Ruby on Rails, Drupal8 and React native. The Goal at this stage is that the main API will run from the backend of the rails app. The mobile app will not store any data and will simply hit the rails API to access the main database connected to it, which will be a relational data model to be decided. The drupal8 instances will need their own data stores which will more than likley be MySql in drupal8 fashion. The apps will all communicate to share data as required via api requests.
 
-myCitySubscription will have a Ruby backend and a JavaScript frontend.
+Deployment will be on the cloud at AWS.
 
-The backend API will be built out as a Sinatra application. This choice is due to the quick build times and ease of the high level Ruby language, coupled with the non-opinionated framework that sinatra provides. It will help avoid the unnecessary weight of a full opinionated Rails API. Thi allows us to structure the API and use middlewares as we choose to, as well as implement other application functionality as we choose.
-
-There will be three front ends that interact with the sinatra API.
-
-The main administration interface and the public facing responsive website will be built on React, a component based Javascript library. React provides a robust library of resources for building an interactive UI with the ability to only import what is needed for the job. React is extremely popular in the development community due to its ease of use and the ability to re-use components for a dry and lightweight codebase. Its ability to use state within components and the newly introduced event hooks to control the component life cycle ensure a quick and easy to develop interactive web app. Furthermore, the way that React segregates its endpoints in a fashion that maintains a "static" app makes it extremely easy to deploy and extremely quick to use and load.
-
-The mobile app segment of the application will be built with React Native. React Native is a unique native application framework that essentially allows developers to create native applications written in JavaScript. React Native lets you create truly native apps and doesn't compromise on your users' experience. It provides a core set of platform agnostic native components like View, Text, and Image that map directly to the platform’s native UI building blocks.
-
-Essentially there will be three font ends to this application that all interact in one way or another with the Sinatra API to perform CRUD actions and make relevant requests for data.
-
-### Architecture
-
-coming soon...
-
-### Data
-
-coming soon...
-
-## More documentation coming soon!
-
+**This section will be thickened out in time**
 
 ## feedback and thoughts :
 
