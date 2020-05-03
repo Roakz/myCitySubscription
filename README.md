@@ -101,7 +101,7 @@ Install ruby 2.5.5 (I use rvm to manage my ruby versions for different projects)
 ```
 rvm install 2.5.5
 ```
-Run a bundle install
+Make sure your using the correct Ruby verison and Run a bundle install
 
 ```
 bundle install
