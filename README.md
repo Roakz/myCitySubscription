@@ -17,6 +17,7 @@ Links to other repositories:
     * [Administrative Interface](###Admin-Portal)
     * [Content Portal](###Content-Portal-(Digital-assets))
 4. [Tech Stack](##Tech-Stack)
+5. [Contribute](##Contribute)
   
 ---
 
@@ -83,6 +84,12 @@ The Technologies used for the application will include the Above discussed inclu
 Deployment will be on the cloud at AWS.
 
 **This section will be thickened out in time**
+
+## Contribute
+
+Anyone who wants to contribute to this open source project is welcome. There is a basic contribute.md above in the files. But essentially there will be features and issues that need attention. Otherwise feel free to make recommendations or pull requests as you see fit and ill be more than happy to take a look.
+
+Lets all contribute to a wholesome cause that could make a difference to any industry that needs support.
 
 ## feedback and thoughts :
 
