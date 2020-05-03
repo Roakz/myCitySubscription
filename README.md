@@ -10,14 +10,14 @@ Links to other repositories:
 ---
 
 ## Contents
-1. [The Problem](##The-Problem)
-2. [The Solution](##The-Solution)
-3. [The Application](##The-Application)
-    * [Public Interface](###Public-Interface)
-    * [Administrative Interface](###Admin-Portal)
-    * [Content Portal](###Content-Portal-(Digital-assets))
-4. [Tech Stack](##Tech-Stack)
-5. [Contribute](##Contribute)
+1. [The Problem](##the-Problem)
+2. [The Solution](##the-Solution)
+3. [The Application](##the-application)
+    * [Public Interface](###public-interface)
+    * [Administrative Interface](###admin-portal)
+    * [Content Portal](###content-portal-(digital-assets))
+4. [Tech Stack](##tech-stack)
+5. [Contribute](##contribute)
   
 ---
 
