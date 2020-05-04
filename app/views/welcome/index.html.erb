@@ -1,3 +1,5 @@
+<%# Organization Page %>
+
 <div class="jumbotron bg-info border border-dark">
   <h1 class="display-4 text-white">MyCitySubscription</h1>
   <p class="lead text-black">An open source, subscripiton based, digital donation software. In case you were wondering, that means its free!</p>
@@ -8,6 +10,7 @@
   </p>
 </div>
 
+<%# snapshot cards %>
 <div class="d-flex flex-wrap justify-content-around">
 <% @cards.each do |card| %>
     <%= render partial: "card", locals: {
@@ -17,3 +20,59 @@
     %>
 <%end%>
 </div>
+
+<%# Learn more cards %>
+<div class="card text-center mt-4">
+  <div class="card-body">
+    <h5 class="card-title">More info</h5>
+    <p class="card-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et pharetra risus. Proin congue lacus sit amet augue ultrices, ac pretium orci sollicitudin. Sed euismod eu mauris id egestas. Duis eros ante, lacinia quis sapien at, viverra mollis nibh. Proin molestie venenatis orci, id consequat dui pharetra quis. In elementum, odio et varius commodo, augue nibh semper nisi, non pharetra nibh nulla et mauris. Donec eget enim at felis congue accumsan vel et eros. Praesent ac urna sed nibh imperdiet ullamcorper. Etiam sollicitudin erat sed dolor tempus, sed feugiat arcu sagittis. Cras vel ex libero. Pellentesque aliquam nisl tempus risus hendrerit, ac hendrerit risus ultricies.
+    </p>
+  </div>
+  <div class="card text-center">
+  <div class="card-body">
+    <h5 class="card-title">More info</h5>
+    <p class="card-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et pharetra risus. Proin congue lacus sit amet augue ultrices, ac pretium orci sollicitudin. Sed euismod eu mauris id egestas. Duis eros ante, lacinia quis sapien at, viverra mollis nibh. Proin molestie venenatis orci, id consequat dui pharetra quis. In elementum, odio et varius commodo, augue nibh semper nisi, non pharetra nibh nulla et mauris. Donec eget enim at felis congue accumsan vel et eros. Praesent ac urna sed nibh imperdiet ullamcorper. Etiam sollicitudin erat sed dolor tempus, sed feugiat arcu sagittis. Cras vel ex libero. Pellentesque aliquam nisl tempus risus hendrerit, ac hendrerit risus ultricies.
+    </p>
+  </div>
+  <div class="card text-center">
+  <div class="card-body">
+    <h5 class="card-title">More info</h5>
+    <p class="card-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et pharetra risus. Proin congue lacus sit amet augue ultrices, ac pretium orci sollicitudin. Sed euismod eu mauris id egestas. Duis eros ante, lacinia quis sapien at, viverra mollis nibh. Proin molestie venenatis orci, id consequat dui pharetra quis. In elementum, odio et varius commodo, augue nibh semper nisi, non pharetra nibh nulla et mauris. Donec eget enim at felis congue accumsan vel et eros. Praesent ac urna sed nibh imperdiet ullamcorper. Etiam sollicitudin erat sed dolor tempus, sed feugiat arcu sagittis. Cras vel ex libero. Pellentesque aliquam nisl tempus risus hendrerit, ac hendrerit risus ultricies.
+    </p>
+  </div>
+  <div class="card text-center">
+  <div class="card-body">
+    <h5 class="card-title">More info</h5>
+    <p class="card-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et pharetra risus. Proin congue lacus sit amet augue ultrices, ac pretium orci sollicitudin. Sed euismod eu mauris id egestas. Duis eros ante, lacinia quis sapien at, viverra mollis nibh. Proin molestie venenatis orci, id consequat dui pharetra quis. In elementum, odio et varius commodo, augue nibh semper nisi, non pharetra nibh nulla et mauris. Donec eget enim at felis congue accumsan vel et eros. Praesent ac urna sed nibh imperdiet ullamcorper. Etiam sollicitudin erat sed dolor tempus, sed feugiat arcu sagittis. Cras vel ex libero. Pellentesque aliquam nisl tempus risus hendrerit, ac hendrerit risus ultricies.
+    </p>
+  </div>
+</div>
+<div class="jumbotron bg-info border border-dark mt-4 mb-0">
+  <h1 class="display-4 text-white">MyCitySubscription</h1>
+  <p class="lead text-black">An open source, subscripiton based, digital donation software. In case you were wondering, that means its free!</p>
+  <hr class="my-4">
+  <p>Manage your volunteers & helpers, keep track of financial streams and visualize data in real time, utilise the easy to use digital donation/subscription platform and manage your digital assets from one place. </p>
+  <p class="lead">
+    <a class="btn btn-dark btn-lg" href="#" role="button">Create an Account</a>
+  </p>
+</div>
+
+<%# footer %>
+<ul class="nav bg-dark justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
