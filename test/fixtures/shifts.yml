@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  date: 2020-05-16
+  start_time: 2020-05-16 18:34:39
+  finish_time: 2020-05-16 18:34:39
+  roster: one
+  location: MyString
+  cancellation: false
+  assigned_volunteers: MyString
+  training_requirements: MyString
+  description: MyText
+
+two:
+  title: MyString
+  date: 2020-05-16
+  start_time: 2020-05-16 18:34:39
+  finish_time: 2020-05-16 18:34:39
+  roster: two
+  location: MyString
+  cancellation: false
+  assigned_volunteers: MyString
+  training_requirements: MyString
+  description: MyText

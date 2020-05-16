@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @roster.title %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @roster.start_date %>
+</p>
+
+<p>
+  <strong>Finish date:</strong>
+  <%= @roster.finish_date %>
+</p>
+
+<p>
+  <strong>Volunteer:</strong>
+  <%= @roster.volunteer_id %>
+</p>
+
+<p>
+  <strong>Organisation:</strong>
+  <%= @roster.organisation_id %>
+</p>
+
+<%= link_to 'Edit', edit_roster_path(@roster) %> |
+<%= link_to 'Back', rosters_path %>

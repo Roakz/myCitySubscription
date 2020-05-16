@@ -1,0 +1,67 @@
+<%= form_with(model: shift, local: true) do |form| %>
+  <% if shift.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(shift.errors.count, "error") %> prohibited this shift from being saved:</h2>
+
+      <ul>
+        <% shift.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date %>
+    <%= form.date_select :date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :start_time %>
+    <%= form.datetime_select :start_time %>
+  </div>
+
+  <div class="field">
+    <%= form.label :finish_time %>
+    <%= form.datetime_select :finish_time %>
+  </div>
+
+  <div class="field">
+    <%= form.label :roster_id %>
+    <%= form.text_field :roster_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :location %>
+    <%= form.text_field :location %>
+  </div>
+
+  <div class="field">
+    <%= form.label :cancellation %>
+    <%= form.check_box :cancellation %>
+  </div>
+
+  <div class="field">
+    <%= form.label :assigned_volunteers %>
+    <%= form.text_field :assigned_volunteers %>
+  </div>
+
+  <div class="field">
+    <%= form.label :training_requirements %>
+    <%= form.text_field :training_requirements %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

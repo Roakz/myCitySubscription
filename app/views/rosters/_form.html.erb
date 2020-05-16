@@ -1,0 +1,42 @@
+<%= form_with(model: roster, local: true) do |form| %>
+  <% if roster.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(roster.errors.count, "error") %> prohibited this roster from being saved:</h2>
+
+      <ul>
+        <% roster.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :start_date %>
+    <%= form.date_select :start_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :finish_date %>
+    <%= form.date_select :finish_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :volunteer_id %>
+    <%= form.text_field :volunteer_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :organisation_id %>
+    <%= form.text_field :organisation_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
