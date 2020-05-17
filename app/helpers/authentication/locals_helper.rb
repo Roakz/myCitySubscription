@@ -1,0 +1,2 @@
+module Authentication::LocalsHelper
+end

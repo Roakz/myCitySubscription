@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @authentication_local.email %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @authentication_local.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_authentication_local_path(@authentication_local) %> |
+<%= link_to 'Back', authentication_locals_path %>

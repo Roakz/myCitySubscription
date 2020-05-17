@@ -1,4 +1,8 @@
 class WelcomeController < ApplicationController
+
+  def home
+  end
+
   def index
     @cards = [
     {title: "Digital subscription donation", description: "Keep up with the times and increase your potential donation stream by going digital."},

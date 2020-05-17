@@ -1,0 +1,32 @@
+<%= form_with(model: authentication_local, local: true) do |form| %>
+  <% if authentication_local.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(authentication_local.errors.count, "error") %> prohibited this authentication_local from being saved:</h2>
+
+      <ul>
+        <% authentication_local.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email %>
+  </div>
+
+  <div class="field">
+    <%= form.label 'Password' %>
+    <%= form.password_field :password_digest %>
+  </div>
+
+  <div class="field">
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

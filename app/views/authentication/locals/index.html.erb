@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Authentication Locals</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Email</th>
+      <th>User</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @authentication_locals.each do |authentication_local| %>
+      <tr>
+        <td><%= authentication_local.email %></td>
+        <td><%= authentication_local.user_id %></td>
+        <td><%= link_to 'Show', authentication_local %></td>
+        <td><%= link_to 'Edit', edit_authentication_local_path(authentication_local) %></td>
+        <td><%= link_to 'Destroy', authentication_local, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Authentication Local', new_authentication_local_path %>
