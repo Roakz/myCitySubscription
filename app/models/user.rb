@@ -8,10 +8,10 @@ class User < ApplicationRecord
 
     def self.hash_password(unhashed_password)
       hashed_password = BCrypt::Password.create(unhashed_password)
-    #   if hashed_password
-    #     return hashed_password
-    #   else   
+      if hashed_password
+        return hashed_password
+      else   
         return false
-    #   end
+      end
     end
 end

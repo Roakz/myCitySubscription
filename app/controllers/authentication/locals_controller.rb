@@ -36,12 +36,6 @@ class Authentication::LocalsController < ApplicationController
 
     respond_to do |format|
 
-      if @authentication_local_params[:password_digest] == false 
-        format.html { render :new }
-        format.json { render json: @authentication_local.errors, status: :unprocessable_entity }
-        return
-      end
-
       if @authentication_local.save
         format.html { redirect_to @authentication_local, notice: 'Local was successfully created.' }
         format.json { render :show, status: :created, location: @authentication_local }
