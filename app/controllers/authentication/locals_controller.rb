@@ -2,28 +2,20 @@
 class Authentication::LocalsController < ApplicationController
   before_action :set_authentication_local, only: [:show, :edit, :update, :destroy]
 
-  # GET /authentication/locals
-  # GET /authentication/locals.json
   def index
     @authentication_locals = Authentication::Local.all
   end
 
-  # GET /authentication/locals/1
-  # GET /authentication/locals/1.json
   def show
   end
 
-  # GET /authentication/locals/new
   def new
     @authentication_local = Authentication::Local.new
   end
 
-  # GET /authentication/locals/1/edit
   def edit
   end
 
-  # POST /authentication/locals
-  # POST /authentication/locals.json
   def create
 
     # create validation for authentications and users in there models and validate the information.
@@ -49,8 +41,6 @@ class Authentication::LocalsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /authentication/locals/1
-  # PATCH/PUT /authentication/locals/1.json
   def update
     respond_to do |format|
       if @authentication_local.update(authentication_local_params)
@@ -63,8 +53,6 @@ class Authentication::LocalsController < ApplicationController
     end
   end
 
-  # DELETE /authentication/locals/1
-  # DELETE /authentication/locals/1.json
   def destroy
     @authentication_local.destroy
     respond_to do |format|
