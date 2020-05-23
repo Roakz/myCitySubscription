@@ -26,16 +26,19 @@ class Authentication::LocalsController < ApplicationController
   # POST /authentication/locals.json
   def create
 
-    @authentication_local_params = {:email => authentication_local_params[:email], :password_digest => User.hash_password(authentication_local_params[:password_digest])}
-    
-    @user = User.create(:email => authentication_local_params[:email])
+    # create validation for authentications and users in there models and validate the information.
 
+    @user = User.where(:email => params[:email])
+
+    if !@user
+      @user = User.create(:email => authentication_local_params[:email])
+    end
+
+    @authentication_local_params = {:email => authentication_local_params[:email], :password_digest => User.hash_password(authentication_local_params[:password_digest])}
     @authentication_local_params[:user_id] = @user.id
-    
     @authentication_local = Authentication::Local.new(@authentication_local_params)
 
     respond_to do |format|
-
       if @authentication_local.save
         format.html { redirect_to @authentication_local, notice: 'Local was successfully created.' }
         format.json { render :show, status: :created, location: @authentication_local }
