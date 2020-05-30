@@ -1,11 +1,20 @@
 Rails.application.routes.draw do
+
+  # resources & namespaces
   namespace :authentication do
     resources :locals
   end
+
   resources :shifts
   resources :rosters
   resources :users
+
+  # welcome/statics
   get '/welcome/organisation', to: "welcome#index"
   root 'welcome#home'
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  
+  # Sessions
+  get    '/login',   to: 'sessions#new'
+  post   '/login',   to: 'sessions#create'
+  delete '/logout',  to: 'sessions#destroy'
 end
