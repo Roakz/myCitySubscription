@@ -17,10 +17,7 @@ class Authentication::LocalsController < ApplicationController
   end
 
   def create
-
-    # create validation for authentications and users in there models and validate the information.
-
-    @user = User.where(:email => params[:email])[0]q
+    @user = User.where(:email => params[:email])[0]
 
     if !@user
       @user = User.create(:email => authentication_local_params[:email])
@@ -30,35 +27,25 @@ class Authentication::LocalsController < ApplicationController
     @authentication_local_params[:user_id] = @user.id
     @authentication_local = Authentication::Local.new(@authentication_local_params)
 
-    respond_to do |format|
-      if @authentication_local.save
-        format.html { redirect_to @authentication_local, notice: 'Local was successfully created.' }
-        format.json { render :show, status: :created, location: @authentication_local }
-      else
-        format.html { render :new }
-        format.json { render json: @authentication_local.errors, status: :unprocessable_entity }
-      end
+    if @authentication_local.save
+      redirect_to @authentication_local, notice: 'Local was successfully created.' 
+    else
+      render :new 
     end
   end
 
   def update
-    respond_to do |format|
-      if @authentication_local.update(authentication_local_params)
-        format.html { redirect_to @authentication_local, notice: 'Local was successfully updated.' }
-        format.json { render :show, status: :ok, location: @authentication_local }
-      else
-        format.html { render :edit }
-        format.json { render json: @authentication_local.errors, status: :unprocessable_entity }
-      end
+    @authentication_local_params = {:email => authentication_local_params[:email], :password_digest => User.hash_password(authentication_local_params[:password_digest])}
+    if @authentication_local.update(@authentication_local_params)
+      redirect_to @authentication_local, notice: 'Local was successfully updated.' 
+    else
+      render :edit
     end
   end
 
   def destroy
     @authentication_local.destroy
-    respond_to do |format|
-      format.html { redirect_to authentication_locals_url, notice: 'Local was successfully destroyed.' }
-      format.json { head :no_content }
-    end
+    redirect_to authentication_locals_url, notice: 'Local was successfully destroyed.' 
   end
 
   private
