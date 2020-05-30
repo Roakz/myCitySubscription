@@ -20,7 +20,7 @@ class Authentication::LocalsController < ApplicationController
 
     # create validation for authentications and users in there models and validate the information.
 
-    @user = User.where(:email => params[:email])
+    @user = User.where(:email => params[:email])[0]q
 
     if !@user
       @user = User.create(:email => authentication_local_params[:email])
