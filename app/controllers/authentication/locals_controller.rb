@@ -1,6 +1,8 @@
 
 class Authentication::LocalsController < ApplicationController
+
   before_action :set_authentication_local, only: [:show, :edit, :update, :destroy]
+  before_action :logged_in_user, only: [:index, :show, :edit, :update, :destroy]
 
   def index
     @authentication_locals = Authentication::Local.all
