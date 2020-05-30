@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
 
-    # NEED TO CREATE AN AUTHENTICATE FUNCTION IN USER.
+    # NEED TO CREATE AN AUTHENTICATE FUNCTION IN USER and add before actions to protect routes
 
   def new
   end
