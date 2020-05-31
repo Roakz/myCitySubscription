@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  # mounting the grape api
+  mount API::Base => "/"
 
   # resources & namespaces
   namespace :authentication do
