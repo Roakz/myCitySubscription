@@ -82,7 +82,7 @@ The mobile application will provide the heart of the myCitySubscription idea. It
 
 ## Tech stack
 
-The Technologies used for the application will include the Above discussed including Ruby on Rails, Drupal8 and React native. The Goal at this stage is that the main API will run from the backend of the rails app. The mobile app will not store any data and will simply hit the rails API to access the main database connected to it, which will be a relational data model to be decided. The drupal8 instances will need their own data stores which will more than likley be MySql in drupal8 fashion. The apps will all communicate to share data as required via api requests.
+The Technologies used for the application will include the Above discussed including Ruby on Rails, Drupal8 and React native. The Goal at this stage is that the main API will run from the backend of the rails app. The mobile app will not store any data and will simply hit the rails API to access the main database connected to it, which will be a relational data model to be decided. The drupal8 instances will need their own data stores which will more than likley be MySql in drupal8 fashion. The apps will all communicate to share data as required via api requests.The API is a grape extension of the rails app. 
 
 Deployment will be on the cloud at AWS.
 
@@ -106,6 +106,7 @@ As with any rails project run a bundle install to install the required dependanc
 bundle install
 ```
 Once all dependancies are successfully installed you will need to create a .env file in the directory root and configure your database credentials. See the /config/database.yml for the required variables. YOu will need a database name for development and testing and a password and host.
+
 ```
 touch .env
 ```
@@ -127,6 +128,8 @@ In another terminal window
 ```
 
 Visit localhost:3000
+
+<strong>API routes</strong> are visible at the top of printed routes when using <strong>rake routes</strong>...not rails routes
 
 ## feedback and thoughts :
 
