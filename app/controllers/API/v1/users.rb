@@ -13,7 +13,7 @@ module API
   
           desc "Return a User"
           params do
-            requires :id, type: String, desc: "ID of the graduate"
+            requires :id, type: String, desc: "ID of the user"
           end
           get ":id", root: "users" do
             User.where(id: permitted_params[:id]).first!
